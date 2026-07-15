@@ -3,41 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01FC950064D3A2F3D7220A7F /* SchedulePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DAD81388B3DB9F827D7D32 /* SchedulePreferences.swift */; };
-		065C5DD7571F37A13EC59E2C /* SchedulePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DAD81388B3DB9F827D7D32 /* SchedulePreferences.swift */; };
-		0845224F13D91FEDE0FE2E00 /* ScheduleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212A9CD19DE55980A84C895 /* ScheduleContext.swift */; };
-		188598D2ACEFCC033A6BC8E0 /* CurrentSessionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5CD8F5F306307430E46E84 /* CurrentSessionCard.swift */; };
-		24EC2276C5ECA092B17FDB81 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0B02EEA1536DE8E64C6F4 /* ScheduleItem.swift */; };
-		33943565E106949F1FCB7062 /* ScheduleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212A9CD19DE55980A84C895 /* ScheduleContext.swift */; };
-		38A0A8E9768028A8FDA85347 /* CampScheduleWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F65535B7B9784F7C4E5 /* CampScheduleWidgetBundle.swift */; };
-		5411233A6F8F27DB4D1EF64B /* CampScheduleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34F8344EB34AEF6A2C2A295 /* CampScheduleProvider.swift */; };
 		55EAA83C60243BF734EACD98 /* CampScheduleWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 53EEC6F80C674ACEBB1E2861 /* CampScheduleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		5825AFDC7A8AB4EA256CEC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621AAF360F26FA87A41AA81C /* Assets.xcassets */; };
-		5A243C209BC213D9DBD5A15D /* ScheduleDayOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FAA893062C6E3B39F856A /* ScheduleDayOption.swift */; };
-		7B8B2911D9FD331469DDA10D /* CampScheduleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E543F1248D39A27B70605 /* CampScheduleEntry.swift */; };
-		7F59E041E35A9D7B48505C7B /* CampSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E27DA26AE0C04A3CC44F18 /* CampSchedule.swift */; };
-		83FC6A60449401BA812388EA /* ScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435698626EFDA0D0794222FB /* ScheduleScreen.swift */; };
-		95251898237EC1DC6DAA341B /* CampSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E27DA26AE0C04A3CC44F18 /* CampSchedule.swift */; };
-		95AD4EA165F5EC7130E52FC2 /* CampScheduleConfigurationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF741016BA63D1BE3154ADD /* CampScheduleConfigurationIntent.swift */; };
-		969223E298BF06BEE5AB7382 /* ScheduleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212A9CD19DE55980A84C895 /* ScheduleContext.swift */; };
-		ABEF999450117C1ACA1DD172 /* WidgetSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD0A92E25C3663CCEF4C5D /* WidgetSettingsScreen.swift */; };
-		B1422D3F76BE824C51CC5CC7 /* CampDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0C8A8B93C7C99514C2C0C0 /* CampDay.swift */; };
-		B90B8F804126EFCD6D4C1CEC /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0B02EEA1536DE8E64C6F4 /* ScheduleItem.swift */; };
-		BBDF6C00400B73C96257EEC3 /* CampScheduleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C696291E86C428347CBC2B /* CampScheduleWidget.swift */; };
-		BD989732C70B2194BB8B2290 /* ScheduleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8690F6B6E3AE18739F5C98 /* ScheduleRow.swift */; };
-		C57F84429A596A38FDDE0140 /* SchedulePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DAD81388B3DB9F827D7D32 /* SchedulePreferences.swift */; };
-		CFD0D16944D3F59EA07D51C2 /* CampScheduleWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9056B7DA6AA36B8C65B1FEC /* CampScheduleWidgetView.swift */; };
-		D3EC81D5299BA30E975E455E /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0B02EEA1536DE8E64C6F4 /* ScheduleItem.swift */; };
-		D5735861D954125EC4B7C4DE /* CampDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0C8A8B93C7C99514C2C0C0 /* CampDay.swift */; };
-		E4F66B84608886AF9284794F /* CampDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0C8A8B93C7C99514C2C0C0 /* CampDay.swift */; };
-		E6898EE8BF7EB9F4D73C892F /* SummerCampScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CCCAB7DADE7A55CF2BA3F /* SummerCampScheduleApp.swift */; };
-		FAEAC23607B004BB6C990884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621AAF360F26FA87A41AA81C /* Assets.xcassets */; };
-		FE0E23F452616D37D6140F55 /* CampScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCA0B0E0516D7E13C5878B /* CampScheduleTests.swift */; };
-		FFFA03C859714A8F1482FFA1 /* CampSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E27DA26AE0C04A3CC44F18 /* CampSchedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,98 +35,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B8690F6B6E3AE18739F5C98 /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
-		31290CB9964F4A5BEF672858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3576C5F8F766F7CEEA025A07 /* SummerCampSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerCampSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		435698626EFDA0D0794222FB /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
 		53EEC6F80C674ACEBB1E2861 /* CampScheduleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CampScheduleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D5B2F65535B7B9784F7C4E5 /* CampScheduleWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleWidgetBundle.swift; sourceTree = "<group>"; };
-		621AAF360F26FA87A41AA81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62DD0A92E25C3663CCEF4C5D /* WidgetSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSettingsScreen.swift; sourceTree = "<group>"; };
-		69F0B02EEA1536DE8E64C6F4 /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
-		84C696291E86C428347CBC2B /* CampScheduleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleWidget.swift; sourceTree = "<group>"; };
-		8B0C8A8B93C7C99514C2C0C0 /* CampDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampDay.swift; sourceTree = "<group>"; };
-		8FCCA0B0E0516D7E13C5878B /* CampScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleTests.swift; sourceTree = "<group>"; };
-		96E27DA26AE0C04A3CC44F18 /* CampSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampSchedule.swift; sourceTree = "<group>"; };
-		AB5CD8F5F306307430E46E84 /* CurrentSessionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSessionCard.swift; sourceTree = "<group>"; };
 		AD39045C3965AA544AB3BF89 /* CampScheduleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CampScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B46756C8660D2C0E47978A88 /* SummerCampSchedule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SummerCampSchedule.entitlements; sourceTree = "<group>"; };
-		BC7E543F1248D39A27B70605 /* CampScheduleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleEntry.swift; sourceTree = "<group>"; };
-		C212A9CD19DE55980A84C895 /* ScheduleContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleContext.swift; sourceTree = "<group>"; };
-		C34F8344EB34AEF6A2C2A295 /* CampScheduleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleProvider.swift; sourceTree = "<group>"; };
-		C77C1DA8C223A6DCFF4E7FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C8DAD81388B3DB9F827D7D32 /* SchedulePreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePreferences.swift; sourceTree = "<group>"; };
-		CB63E19E7495D5D8CCC93C44 /* CampScheduleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CampScheduleWidget.entitlements; sourceTree = "<group>"; };
-		CC4FAA893062C6E3B39F856A /* ScheduleDayOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDayOption.swift; sourceTree = "<group>"; };
-		DBF741016BA63D1BE3154ADD /* CampScheduleConfigurationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleConfigurationIntent.swift; sourceTree = "<group>"; };
-		E62CCCAB7DADE7A55CF2BA3F /* SummerCampScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampScheduleApp.swift; sourceTree = "<group>"; };
-		E9056B7DA6AA36B8C65B1FEC /* CampScheduleWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6CCF1F1D3007F51200BFB412 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5EA2CD847E89086AF19380F1 /* CampScheduleWidgetExtension */;
+		};
+		6CCF1F483007F51B00BFB412 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B25EFA5E656FE91B0FBAC638 /* SummerCampSchedule */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6CCF1F093007F51000BFB412 /* CampScheduleTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CampScheduleTests; sourceTree = "<group>"; };
+		6CCF1F143007F51200BFB412 /* CampScheduleWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (6CCF1F1D3007F51200BFB412 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CampScheduleWidget; sourceTree = "<group>"; };
+		6CCF1F1F3007F51400BFB412 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		6CCF1F273007F51800BFB412 /* Shared */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Shared; sourceTree = "<group>"; };
+		6CCF1F413007F51A00BFB412 /* SummerCampScheduleApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (6CCF1F483007F51B00BFB412 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = SummerCampScheduleApp; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXGroup section */
-		1C29FB73554A1FA9BC048155 /* CampScheduleTests */ = {
-			isa = PBXGroup;
-			children = (
-				8FCCA0B0E0516D7E13C5878B /* CampScheduleTests.swift */,
-			);
-			path = CampScheduleTests;
-			sourceTree = "<group>";
-		};
-		5BE382674E5CD497EC5F9A18 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				62DD0A92E25C3663CCEF4C5D /* WidgetSettingsScreen.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		7DE7AC4E9BC19E39E2DFB99D /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				8B0C8A8B93C7C99514C2C0C0 /* CampDay.swift */,
-				96E27DA26AE0C04A3CC44F18 /* CampSchedule.swift */,
-				C212A9CD19DE55980A84C895 /* ScheduleContext.swift */,
-				69F0B02EEA1536DE8E64C6F4 /* ScheduleItem.swift */,
-				C8DAD81388B3DB9F827D7D32 /* SchedulePreferences.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		AB97E573F6C5F8DE53350F57 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				BA5B74B601081830F59F9ECA /* Schedule */,
-				5BE382674E5CD497EC5F9A18 /* Settings */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		BA5B74B601081830F59F9ECA /* Schedule */ = {
-			isa = PBXGroup;
-			children = (
-				AB5CD8F5F306307430E46E84 /* CurrentSessionCard.swift */,
-				1B8690F6B6E3AE18739F5C98 /* ScheduleRow.swift */,
-				435698626EFDA0D0794222FB /* ScheduleScreen.swift */,
-			);
-			path = Schedule;
-			sourceTree = "<group>";
-		};
-		BD09B33646375824CCB642D8 /* CampScheduleWidget */ = {
-			isa = PBXGroup;
-			children = (
-				DBF741016BA63D1BE3154ADD /* CampScheduleConfigurationIntent.swift */,
-				BC7E543F1248D39A27B70605 /* CampScheduleEntry.swift */,
-				C34F8344EB34AEF6A2C2A295 /* CampScheduleProvider.swift */,
-				CB63E19E7495D5D8CCC93C44 /* CampScheduleWidget.entitlements */,
-				84C696291E86C428347CBC2B /* CampScheduleWidget.swift */,
-				5D5B2F65535B7B9784F7C4E5 /* CampScheduleWidgetBundle.swift */,
-				E9056B7DA6AA36B8C65B1FEC /* CampScheduleWidgetView.swift */,
-				31290CB9964F4A5BEF672858 /* Info.plist */,
-				CC4FAA893062C6E3B39F856A /* ScheduleDayOption.swift */,
-			);
-			path = CampScheduleWidget;
-			sourceTree = "<group>";
-		};
 		E20BB445596B3E09D9C944C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,33 +76,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E27856E16E55057BF10820D6 /* SummerCampScheduleApp */ = {
-			isa = PBXGroup;
-			children = (
-				C77C1DA8C223A6DCFF4E7FFB /* Info.plist */,
-				B46756C8660D2C0E47978A88 /* SummerCampSchedule.entitlements */,
-				E62CCCAB7DADE7A55CF2BA3F /* SummerCampScheduleApp.swift */,
-				AB97E573F6C5F8DE53350F57 /* Features */,
-			);
-			path = SummerCampScheduleApp;
-			sourceTree = "<group>";
-		};
-		E67ABE2B777B3ABC64C227D6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				621AAF360F26FA87A41AA81C /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		F5C7DBA54B05679B0253B4B2 = {
 			isa = PBXGroup;
 			children = (
-				1C29FB73554A1FA9BC048155 /* CampScheduleTests */,
-				BD09B33646375824CCB642D8 /* CampScheduleWidget */,
-				E67ABE2B777B3ABC64C227D6 /* Resources */,
-				7DE7AC4E9BC19E39E2DFB99D /* Shared */,
-				E27856E16E55057BF10820D6 /* SummerCampScheduleApp */,
+				6CCF1F093007F51000BFB412 /* CampScheduleTests */,
+				6CCF1F143007F51200BFB412 /* CampScheduleWidget */,
+				6CCF1F1F3007F51400BFB412 /* Resources */,
+				6CCF1F273007F51800BFB412 /* Shared */,
+				6CCF1F413007F51A00BFB412 /* SummerCampScheduleApp */,
 				E20BB445596B3E09D9C944C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -210,6 +100,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6CCF1F093007F51000BFB412 /* CampScheduleTests */,
+				6CCF1F273007F51800BFB412 /* Shared */,
 			);
 			name = CampScheduleTests;
 			packageProductDependencies = (
@@ -228,6 +122,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6CCF1F143007F51200BFB412 /* CampScheduleWidget */,
+				6CCF1F1F3007F51400BFB412 /* Resources */,
+				6CCF1F273007F51800BFB412 /* Shared */,
 			);
 			name = CampScheduleWidgetExtension;
 			packageProductDependencies = (
@@ -248,6 +147,11 @@
 			);
 			dependencies = (
 				B8238E77B75B85045E6F4641 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6CCF1F1F3007F51400BFB412 /* Resources */,
+				6CCF1F273007F51800BFB412 /* Shared */,
+				6CCF1F413007F51A00BFB412 /* SummerCampScheduleApp */,
 			);
 			name = SummerCampSchedule;
 			packageProductDependencies = (
@@ -302,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5825AFDC7A8AB4EA256CEC6A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEAC23607B004BB6C990884 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F66B84608886AF9284794F /* CampDay.swift in Sources */,
-				7F59E041E35A9D7B48505C7B /* CampSchedule.swift in Sources */,
-				FE0E23F452616D37D6140F55 /* CampScheduleTests.swift in Sources */,
-				0845224F13D91FEDE0FE2E00 /* ScheduleContext.swift in Sources */,
-				D3EC81D5299BA30E975E455E /* ScheduleItem.swift in Sources */,
-				01FC950064D3A2F3D7220A7F /* SchedulePreferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,18 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1422D3F76BE824C51CC5CC7 /* CampDay.swift in Sources */,
-				FFFA03C859714A8F1482FFA1 /* CampSchedule.swift in Sources */,
-				95AD4EA165F5EC7130E52FC2 /* CampScheduleConfigurationIntent.swift in Sources */,
-				7B8B2911D9FD331469DDA10D /* CampScheduleEntry.swift in Sources */,
-				5411233A6F8F27DB4D1EF64B /* CampScheduleProvider.swift in Sources */,
-				BBDF6C00400B73C96257EEC3 /* CampScheduleWidget.swift in Sources */,
-				38A0A8E9768028A8FDA85347 /* CampScheduleWidgetBundle.swift in Sources */,
-				CFD0D16944D3F59EA07D51C2 /* CampScheduleWidgetView.swift in Sources */,
-				969223E298BF06BEE5AB7382 /* ScheduleContext.swift in Sources */,
-				5A243C209BC213D9DBD5A15D /* ScheduleDayOption.swift in Sources */,
-				B90B8F804126EFCD6D4C1CEC /* ScheduleItem.swift in Sources */,
-				065C5DD7571F37A13EC59E2C /* SchedulePreferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,16 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5735861D954125EC4B7C4DE /* CampDay.swift in Sources */,
-				95251898237EC1DC6DAA341B /* CampSchedule.swift in Sources */,
-				188598D2ACEFCC033A6BC8E0 /* CurrentSessionCard.swift in Sources */,
-				33943565E106949F1FCB7062 /* ScheduleContext.swift in Sources */,
-				24EC2276C5ECA092B17FDB81 /* ScheduleItem.swift in Sources */,
-				C57F84429A596A38FDDE0140 /* SchedulePreferences.swift in Sources */,
-				BD989732C70B2194BB8B2290 /* ScheduleRow.swift in Sources */,
-				83FC6A60449401BA812388EA /* ScheduleScreen.swift in Sources */,
-				E6898EE8BF7EB9F4D73C892F /* SummerCampScheduleApp.swift in Sources */,
-				ABEF999450117C1ACA1DD172 /* WidgetSettingsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
