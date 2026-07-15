@@ -1,0 +1,88 @@
+name: SummerCampSchedule
+
+options:
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "26.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  SummerCampSchedule:
+    type: application
+    platform: iOS
+    sources:
+      - path: SummerCampScheduleApp
+      - path: Shared
+      - path: Resources
+    info:
+      path: SummerCampScheduleApp/Info.plist
+      properties:
+        CFBundleDisplayName: Summer Camp 2026
+        UILaunchScreen: {}
+    entitlements:
+      path: SummerCampScheduleApp/SummerCampSchedule.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ethanhuang13.iOSAISummerCamp2026
+        PRODUCT_NAME: SummerCampSchedule
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    dependencies:
+      - target: CampScheduleWidgetExtension
+        embed: true
+
+  CampScheduleWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: CampScheduleWidget
+      - path: Shared
+      - path: Resources
+    info:
+      path: CampScheduleWidget/Info.plist
+      properties:
+        CFBundleDisplayName: 營隊時程
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: CampScheduleWidget/CampScheduleWidget.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ethanhuang13.iOSAISummerCamp2026.widget
+        PRODUCT_NAME: CampScheduleWidgetExtension
+        APPLICATION_EXTENSION_API_ONLY: YES
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+  CampScheduleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CampScheduleTests
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ethanhuang13.iOSAISummerCamp2026.tests
+        GENERATE_INFOPLIST_FILE: YES
+
+schemes:
+  SummerCampSchedule:
+    build:
+      targets:
+        SummerCampSchedule: all
+    test:
+      gatherCoverageData: true
+      targets:
+        - CampScheduleTests
+
+  CampScheduleWidgetExtension:
+    build:
+      targets:
+        CampScheduleWidgetExtension: all
