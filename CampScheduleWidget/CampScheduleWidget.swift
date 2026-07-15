@@ -18,21 +18,50 @@ struct CampScheduleWidget: Widget {
   }
 }
 
-#Preview("09:15 上課中", as: .systemMedium) {
+#Preview("Day 1 Timeline", as: .systemMedium) {
   CampScheduleWidget()
 } timeline: {
+  CampScheduleEntry.preview(day: .day1, hour: 9, minute: 0)
+  CampScheduleEntry.preview(day: .day1, hour: 9, minute: 20)
+  CampScheduleEntry.preview(day: .day1, hour: 9, minute: 50)
+  CampScheduleEntry.preview(day: .day1, hour: 10, minute: 30)
+  CampScheduleEntry.preview(day: .day1, hour: 12, minute: 15)
+  CampScheduleEntry.preview(day: .day1, hour: 13, minute: 45)
+  CampScheduleEntry.preview(day: .day1, hour: 15, minute: 45)
+  CampScheduleEntry.preview(day: .day1, hour: 16, minute: 50)
+  CampScheduleEntry.preview(day: .day1, hour: 17, minute: 5)
+}
+
+#Preview("Day 2 Timeline", as: .systemMedium) {
+  CampScheduleWidget()
+} timeline: {
+  CampScheduleEntry.preview(day: .day2, hour: 8, minute: 30)
+  CampScheduleEntry.preview(day: .day2, hour: 8, minute: 45)
   CampScheduleEntry.preview(day: .day2, hour: 9, minute: 15)
-}
-
-#Preview("10:35 休息", as: .systemMedium) {
-  CampScheduleWidget()
-} timeline: {
   CampScheduleEntry.preview(day: .day2, hour: 10, minute: 35)
+  CampScheduleEntry.preview(day: .day2, hour: 10, minute: 50)
+  CampScheduleEntry.preview(day: .day2, hour: 12, minute: 15)
+  CampScheduleEntry.preview(day: .day2, hour: 13, minute: 45)
+  CampScheduleEntry.preview(day: .day2, hour: 14, minute: 45)
+  CampScheduleEntry.preview(day: .day2, hour: 15, minute: 35)
+  CampScheduleEntry.preview(day: .day2, hour: 15, minute: 50)
+  CampScheduleEntry.preview(day: .day2, hour: 16, minute: 50)
+  CampScheduleEntry.preview(day: .day2, hour: 17, minute: 5)
 }
 
-#Preview("10:43 下一堂前", as: .systemMedium) {
+#Preview("Day 3 Timeline", as: .systemMedium) {
   CampScheduleWidget()
 } timeline: {
-  CampScheduleEntry.preview(day: .day2, hour: 10, minute: 43)
+  CampScheduleEntry.preview(day: .day3, hour: 8, minute: 30)
+  CampScheduleEntry.preview(day: .day3, hour: 8, minute: 45)
+  CampScheduleEntry.preview(day: .day3, hour: 9, minute: 5)
+  CampScheduleEntry.preview(day: .day3, hour: 9, minute: 30)
+  CampScheduleEntry.preview(day: .day3, hour: 12, minute: 30)
+  CampScheduleEntry.preview(day: .day3, hour: 14, minute: 30)
+  CampScheduleEntry.preview(day: .day3, hour: 16, minute: 10)
+  CampScheduleEntry.preview(day: .day3, hour: 16, minute: 27)
+  CampScheduleEntry.preview(day: .day3, hour: 16, minute: 35)
+  CampScheduleEntry.preview(day: .day3, hour: 16, minute: 55)
+  CampScheduleEntry.preview(day: .day3, hour: 17, minute: 10)
+  CampScheduleEntry.preview(day: .day3, hour: 17, minute: 20)
 }
-
