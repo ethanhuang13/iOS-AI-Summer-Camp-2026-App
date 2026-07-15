@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -67,9 +67,9 @@
 /* Begin PBXFileReference section */
 		1B8690F6B6E3AE18739F5C98 /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
 		31290CB9964F4A5BEF672858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3576C5F8F766F7CEEA025A07 /* SummerCampSchedule.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SummerCampSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3576C5F8F766F7CEEA025A07 /* SummerCampSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerCampSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435698626EFDA0D0794222FB /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
-		53EEC6F80C674ACEBB1E2861 /* CampScheduleWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = CampScheduleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EEC6F80C674ACEBB1E2861 /* CampScheduleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CampScheduleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5B2F65535B7B9784F7C4E5 /* CampScheduleWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampScheduleWidgetBundle.swift; sourceTree = "<group>"; };
 		621AAF360F26FA87A41AA81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62DD0A92E25C3663CCEF4C5D /* WidgetSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSettingsScreen.swift; sourceTree = "<group>"; };
@@ -270,11 +270,9 @@
 						ProvisioningStyle = Automatic;
 					};
 					5EA2CD847E89086AF19380F1 = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					B25EFA5E656FE91B0FBAC638 = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -289,7 +287,6 @@
 			);
 			mainGroup = F5C7DBA54B05679B0253B4B2;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -470,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SummerCampScheduleApp/SummerCampSchedule.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LBELW947K7;
 				INFOPLIST_FILE = SummerCampScheduleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +486,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CampScheduleWidget/CampScheduleWidget.entitlements;
+				DEVELOPMENT_TEAM = LBELW947K7;
 				INFOPLIST_FILE = CampScheduleWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -568,6 +567,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SummerCampScheduleApp/SummerCampSchedule.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LBELW947K7;
 				INFOPLIST_FILE = SummerCampScheduleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -602,6 +602,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CampScheduleWidget/CampScheduleWidget.entitlements;
+				DEVELOPMENT_TEAM = LBELW947K7;
 				INFOPLIST_FILE = CampScheduleWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
