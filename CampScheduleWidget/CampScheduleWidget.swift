@@ -20,6 +20,12 @@ struct CampScheduleWidget: Widget {
   }
 }
 
+#Preview("Small · During Session", as: .systemSmall) {
+  CampScheduleWidget()
+} timeline: {
+  CampScheduleEntry.preview(day: .day2, hour: 9, minute: 15)
+}
+
 #Preview("Day 1 Timeline", as: .systemMedium) {
   CampScheduleWidget()
 } timeline: {
