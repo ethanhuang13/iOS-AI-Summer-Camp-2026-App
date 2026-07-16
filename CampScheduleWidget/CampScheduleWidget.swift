@@ -15,7 +15,7 @@ struct CampScheduleWidget: Widget {
     .configurationDisplayName("Summer Camp 日程")
     .description("不用打開 App，也能看到現在與接下來的活動。")
     .supportedFamilies(
-      [.systemMedium, .systemSmall]
+      [.systemSmall, .systemMedium, .systemLarge]
     )
   }
 }
