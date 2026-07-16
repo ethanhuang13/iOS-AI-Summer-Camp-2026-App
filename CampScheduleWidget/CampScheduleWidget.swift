@@ -14,8 +14,16 @@ struct CampScheduleWidget: Widget {
     }
     .configurationDisplayName("Summer Camp 日程")
     .description("不用打開 App，也能看到現在與接下來的活動。")
-    .supportedFamilies([.systemMedium])
+    .supportedFamilies(
+      [.systemSmall, .systemMedium, .systemLarge]
+    )
   }
+}
+
+#Preview("Small · During Session", as: .systemSmall) {
+  CampScheduleWidget()
+} timeline: {
+  CampScheduleEntry.preview(day: .day2, hour: 9, minute: 15)
 }
 
 #Preview("Day 1 Timeline", as: .systemMedium) {
